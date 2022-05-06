@@ -1,0 +1,121 @@
+[Info] Successfully preconnected to https://fonts.gstatic.com/
+[Warning]  (main.3c5e7befea92c1149e70.js, line 1426)
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the module builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+CommonJS Modules:
+const firebase = require('firebase/app');
+require('firebase/<PACKAGE>');
+
+ES Modules:
+import firebase from 'firebase/app';
+import 'firebase/<PACKAGE>';
+
+Typescript:
+import firebase from 'firebase/app';
+import 'firebase/<PACKAGE>';
+
+[Log] next features – Object (main.3c5e7befea92c1149e70.js, line 1426)
+Object
+[Error] Error: Uncaught (in promise): FirebaseError: Messaging: This browser doesn't support the API's required to use the firebase SDK. (messaging/unsupported-browser).
+t@https://test.ricohspaces.app/en/main.3c5e7befea92c1149e70.js:1426:4389542
+@https://test.ricohspaces.app/en/main.3c5e7befea92c1149e70.js:1426:4390052
+@https://test.ricohspaces.app/en/main.3c5e7befea92c1149e70.js:1426:4311195
+@https://test.ricohspaces.app/en/main.3c5e7befea92c1149e70.js:1426:3794997
+@https://test.ricohspaces.app/en/main.3c5e7befea92c1149e70.js:1426:3791813
+@[native code]
+@https://test.ricohspaces.app/en/main.3c5e7befea92c1149e70.js:164:625842
+generatorResume@[native code]
+@https://test.ricohspaces.app/en/main.3c5e7befea92c1149e70.js:1426:6476262
+C@https://test.ricohspaces.app/en/polyfills.df96b37a4a30169190d5.js:1:17846
+u@https://test.ricohspaces.app/en/main.3c5e7befea92c1149e70.js:1426:6476025
+S@https://test.ricohspaces.app/en/main.3c5e7befea92c1149e70.js:1426:2739571
+_next@https://test.ricohspaces.app/en/main.3c5e7befea92c1149e70.js:1426:6377741
+next@https://test.ricohspaces.app/en/main.3c5e7befea92c1149e70.js:1426:6349080
+_next@https://test.ricohspaces.app/en/main.3c5e7befea92c1149e70.js:1426:6370675
+next@https://test.ricohspaces.app/en/main.3c5e7befea92c1149e70.js:1426:6349080
+notifyNext@https://test.ricohspaces.app/en/main.3c5e7befea92c1149e70.js:1426:6378277
+_next@https://test.ricohspaces.app/en/main.3c5e7befea92c1149e70.js:1426:6353862
+next@https://test.ricohspaces.app/en/main.3c5e7befea92c1149e70.js:1426:6349080
+@https://test.ricohspaces.app/en/main.3c5e7befea92c1149e70.js:1426:6389052
+onInvoke@https://test.ricohspaces.app/en/main.3c5e7befea92c1149e70.js:1426:2701776
+run@https://test.ricohspaces.app/en/polyfills.df96b37a4a30169190d5.js:1:1978
+@https://test.ricohspaces.app/en/polyfills.df96b37a4a30169190d5.js:1:16784
+onInvokeTask@https://test.ricohspaces.app/en/main.3c5e7befea92c1149e70.js:1426:2701596
+runTask@https://test.ricohspaces.app/en/polyfills.df96b37a4a30169190d5.js:1:2597
+m@https://test.ricohspaces.app/en/polyfills.df96b37a4a30169190d5.js:1:9192
+promiseReactionJob@[native code]
+	(anonymous function) (main.3c5e7befea92c1149e70.js:1426:4702097)
+	(anonymous function) (main.3c5e7befea92c1149e70.js:164:622160)
+	next (main.3c5e7befea92c1149e70.js:1426:2708255)
+	next
+	__tryOrUnsub (main.3c5e7befea92c1149e70.js:1426:6350898)
+	next (main.3c5e7befea92c1149e70.js:1426:6350135)
+	_next (main.3c5e7befea92c1149e70.js:1426:6349306)
+	next (main.3c5e7befea92c1149e70.js:1426:6349081)
+	next (main.3c5e7befea92c1149e70.js:1426:6346820)
+	emit (main.3c5e7befea92c1149e70.js:1426:2682812)
+	run (polyfills.df96b37a4a30169190d5.js:1:1979)
+	onHandleError (main.3c5e7befea92c1149e70.js:1426:2702088)
+	runGuarded (polyfills.df96b37a4a30169190d5.js:1:2159)
+	(anonymous function) (polyfills.df96b37a4a30169190d5.js:1:14625)
+	m (polyfills.df96b37a4a30169190d5.js:1:9260)
+	promiseReactionJob
+[Debug] [Termly] Region "eu" has consent_mode set to "opt_in" (main.3c5e7befea92c1149e70.js, line 1426)
+[Log] TERMLY_BANNER_RENDER_FINISH:0.469s (main.3c5e7befea92c1149e70.js, line 1426)
+[Error] Unrecognized Content-Security-Policy directive 'worker-src'.
+
+[Error] Unrecognized Content-Security-Policy directive 'require-trusted-types-for'.
+
+[Warning] Your client application uses libraries for user authentication or authorization that will soon be deprecated. See the [Migration Guide](https://developers.google.com/identity/gsi/web/guides/gis-migration) for more information. (main.3c5e7befea92c1149e70.js, line 1426)
+[Log] next features – Object (main.3c5e7befea92c1149e70.js, line 1426)
+Object
+[Log] ### VENUE SELECTED FOR DAY ### – Map (1) (main.3c5e7befea92c1149e70.js, line 1426)
+Map (1)
+[Log] ### VENUE SELECTED FOR DAY ### – Map (1) (main.3c5e7befea92c1149e70.js, line 1426)
+Map (1)
+[Error] FirebaseError: Messaging: This browser doesn't support the API's required to use the firebase SDK. (messaging/unsupported-browser).
+	(anonymous function) (main.3c5e7befea92c1149e70.js:1426:4702097)
+	(anonymous function) (main.3c5e7befea92c1149e70.js:164:634078)
+	__tryOrUnsub (main.3c5e7befea92c1149e70.js:1426:6350898)
+	error (main.3c5e7befea92c1149e70.js:1426:6350374)
+	_error (main.3c5e7befea92c1149e70.js:1426:6349342)
+	error (main.3c5e7befea92c1149e70.js:1426:6349140)
+	notifyError (main.3c5e7befea92c1149e70.js:1426:6354080)
+	_error (main.3c5e7befea92c1149e70.js:1426:6353900)
+	error (main.3c5e7befea92c1149e70.js:1426:6349140)
+	_error (main.3c5e7befea92c1149e70.js:1426:6349342)
+	error (main.3c5e7befea92c1149e70.js:1426:6349140)
+	dispatch (main.3c5e7befea92c1149e70.js:1426:6373195)
+	(anonymous function) (main.3c5e7befea92c1149e70.js:1426:2736923)
+	onInvoke (main.3c5e7befea92c1149e70.js:1426:2701777)
+	runGuarded (polyfills.df96b37a4a30169190d5.js:1:2102)
+	(anonymous function) (main.3c5e7befea92c1149e70.js:1426:2736910)
+	_execute (main.3c5e7befea92c1149e70.js:1426:6382904)
+	execute (main.3c5e7befea92c1149e70.js:1426:6382753)
+	flush (main.3c5e7befea92c1149e70.js:1426:6383811)
+	flush
+	i (main.3c5e7befea92c1149e70.js:164:392480)
+	(anonymous function) (polyfills.df96b37a4a30169190d5.js:1:31989)
+	onInvokeTask (main.3c5e7befea92c1149e70.js:1426:2701597)
+	runTask (polyfills.df96b37a4a30169190d5.js:1:2598)
+	invokeTask (polyfills.df96b37a4a30169190d5.js:1:8249)
+[Log] calcualte day data (main.3c5e7befea92c1149e70.js, line 1426)
+[Log] mobile-map-loaded (main.3c5e7befea92c1149e70.js, line 1426)
+[Log] Current Day Loaded (main.3c5e7befea92c1149e70.js, line 1426)
+[Log] SUB COUNT  – Object (main.3c5e7befea92c1149e70.js, line 1426)
+Object
+[Error] Service worker registration failed with: – TypeError: FirebaseError: Messaging: This browser doesn't support the API's required to use the firebase SDK. (messaging/unsupported-browser).
+TypeError: FirebaseError: Messaging: This browser doesn't support the API's required to use the firebase SDK. (messaging/unsupported-browser).
+	(anonymous function) (main.3c5e7befea92c1149e70.js:1426:4702097)
+	run (polyfills.df96b37a4a30169190d5.js:1:1979)
+	(anonymous function) (polyfills.df96b37a4a30169190d5.js:1:16785)
+	runTask (polyfills.df96b37a4a30169190d5.js:1:2598)
+	m (polyfills.df96b37a4a30169190d5.js:1:9193)
+	promiseReactionJob
+> Selected Element
+< <mat-cell _ngcontent-vew-c446 role="cell" mat-cell fxlayout="column" class="mat-cell cdk-cell questionnaire-cell cdk-column-dailyPass mat-column-dailyPass ng-tns-c446-1 ng-star-inserted" style="flex-direction: column; box-sizing: border-box; display: flex;">…</mat-cell>
